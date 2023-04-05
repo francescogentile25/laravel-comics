@@ -9,9 +9,9 @@
 
 
     <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
+    body {
+        font-family: 'Nunito', sans-serif;
+    }
     </style>
 
     <!-- Fonts -->
@@ -27,8 +27,7 @@
     @include('partials.header')
 
     <main class="bg-light">
-        {{-- contenuto --}}
-        @yield('content')
+        main
     </main>
 
     @include('partials.footer')
